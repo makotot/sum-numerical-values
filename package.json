@@ -1,7 +1,7 @@
 {
   "name": "sum-numerical-values",
   "version": "0.1.0",
-  "description": "",
+  "description": "The sum of the numerical values.",
   "main": "index.js",
   "scripts": {
     "test": "ava"
