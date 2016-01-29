@@ -1,0 +1,25 @@
+{
+  "name": "sum-numerical-values",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/makotot/sum-numerical-values.git"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "author": "makotot",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/makotot/sum-numerical-values/issues"
+  },
+  "homepage": "https://github.com/makotot/sum-numerical-values#readme",
+  "devDependencies": {
+    "ava": "^0.11.0"
+  }
+}
