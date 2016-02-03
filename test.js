@@ -3,7 +3,7 @@ const sumValues = require('./')
 
 
 test('return 11', t => {
-  let total = sumValues({
+  const total = sumValues({
     a: 1,
     b: 10
   })
@@ -11,12 +11,22 @@ test('return 11', t => {
   t.is(total, 11)
 })
 
-test('return 5', t => {
-  let total = sumValues({
+test('return 3', t => {
+  const total = sumValues({
     a: "2",
     b: 3,
     c: null
   })
 
-  t.is(total, 5)
+  t.is(total, 3)
+})
+
+test('return 4', t => {
+  const total = sumValues({
+    a: {},
+    b: 1,
+    c: 3
+  })
+
+  t.is(total, 4)
 })
